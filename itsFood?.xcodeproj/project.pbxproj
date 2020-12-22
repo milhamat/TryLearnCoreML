@@ -13,6 +13,7 @@
 		DA874BA02591E63600D6A280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA874B9E2591E63600D6A280 /* Main.storyboard */; };
 		DA874BA22591E63800D6A280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA874BA12591E63800D6A280 /* Assets.xcassets */; };
 		DA874BA52591E63800D6A280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA874BA32591E63800D6A280 /* LaunchScreen.storyboard */; };
+		DA874BAE2591F26900D6A280 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DA874BAD2591F26900D6A280 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DA874BA12591E63800D6A280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA874BA42591E63800D6A280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA874BA62591E63800D6A280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA874BAD2591F26900D6A280 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DA874BA12591E63800D6A280 /* Assets.xcassets */,
 				DA874BA32591E63800D6A280 /* LaunchScreen.storyboard */,
 				DA874BA62591E63800D6A280 /* Info.plist */,
+				DA874BAD2591F26900D6A280 /* Inceptionv3.mlmodel */,
 			);
 			path = "itsFood?";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA874B9D2591E63600D6A280 /* ViewController.swift in Sources */,
+				DA874BAE2591F26900D6A280 /* Inceptionv3.mlmodel in Sources */,
 				DA874B992591E63600D6A280 /* AppDelegate.swift in Sources */,
 				DA874B9B2591E63600D6A280 /* SceneDelegate.swift in Sources */,
 			);
